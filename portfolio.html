@@ -13,65 +13,71 @@
   </head>
   <body>
     <header class="header">
-      <a href="./index.html" class="logo link"
-        ><span class="logo-accent">Web</span> Studio</a
-      >
-      <nav>
-        <ul class="list">
-          <li><a href="./index.html" class="link header-nav">Студия</a></li>
-          <li>
-            <a href="./portfolio.html" class="link header-nav">Потрфолио</a>
+      <div class="flex-container">
+        <a href="./index.html" class="logo link"
+          ><span class="logo-accent">Web</span> Studio</a
+        >
+        <nav>
+          <ul class="list site-nav">
+            <li class="item">
+              <a href="./portfolio.html" class="link page-nav">Портфолио</a>
+            </li>
+            <li class="item">
+              <a href="./index.html" class="link page-nav">Студия</a>
+            </li>
+            <li class="item"><a href="#" class="link page-nav">Контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="list site-nav-phone">
+          <li class="item-phone">
+            <a href="mailto:info@devstudio.com" class="link phones-nav"
+              >info@devstudio.com</a
+            >
           </li>
-          <li><a href="#" class="link header-nav">Контакты</a></li>
+          <li class="item-phone">
+            <a href="tel:+380961111111" class="link phones-nav"
+              >+38 096 111 11 11</a
+            >
+          </li>
         </ul>
-      </nav>
-      <ul class="list">
-        <li>
-          <a href="mailto:info@devstudio.com" class="link header-phones"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a href="tel:+380961111111" class="link header-phones"
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
-    <main>
+    <main class="portfolio-container">
       <!--portfolio filter-->
-      <ul class="list">
-        <li><button type="button" class="portfolio-nav-button">Все</button></li>
-        <li>
+      <ul class="portfolio-filter list">
+        <li class="item-filter">
+          <button type="button" class="portfolio-nav-button">Все</button>
+        </li>
+        <li class="item-filter">
           <button type="button" class="portfolio-nav-button">Приложения</button>
         </li>
-        <li>
+        <li class="item-filter">
           <button type="button" class="portfolio-nav-button">Веб-сайты</button>
         </li>
-        <li>
+        <li class="item-filter">
           <button type="button" class="portfolio-nav-button">Дизайн</button>
         </li>
-        <li>
+        <li class="item-filter">
           <button type="button" class="portfolio-nav-button">Маркетинг</button>
         </li>
       </ul>
       <!--list of works-->
       <section class="works">
         <h1 hidden>Все работы Web Studio</h1>
-        <ul class="list">
-          <li>
+        <ul class="list work-list">
+          <li class="item-work">
             <a href="#" class="link">
               <img src="./images/tehnokryak.jpg" alt="Технокряк" />
               <h2 class="title">Технокряк</h2>
               <p class="name">Веб-сайт</p>
-              <p>
+              <!-- <p>
                 Технокряк это современная площадка распространения коронавируса.
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов.
-              </p>
+              </p> -->
             </a>
           </li>
-          <li>
+          <li class="item-work">
             <a href="#" class="link">
               <img
                 src="./images/poster-new-orlean-golden-star.jpg"
@@ -79,46 +85,46 @@
               />
               <h2 class="title">Постер New Orlean vs Golden Star</h2>
               <p class="name">Дизайн</p>
-              <p>
+              <!-- <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae
                 voluptates aspernatur rerum aperiam ratione ducimus?
-              </p>
+              </p> -->
             </a>
           </li>
-          <li>
+          <li class="item-work">
             <a href="#" class="link">
               <img src="./images/restoran-seafood.jpg" alt="Ресторан Seafood" />
               <h2 class="title">Ресторан Seafood</h2>
               <p class="name">Приложение</p>
-              <p>
+              <!-- <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae
                 voluptates aspernatur rerum aperiam ratione ducimus?
-              </p>
+              </p> -->
             </a>
           </li>
-          <li>
+          <li class="item-work">
             <a href="#" class="link">
               <img src="./images/proekt-prime.jpg" alt="Проект Prime" />
               <h2 class="title">Проект Prime</h2>
               <p class="name">Маркетинг</p>
-              <p>
+              <!-- <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae
                 voluptates aspernatur rerum aperiam ratione ducimus?
-              </p>
+              </p> -->
             </a>
           </li>
-          <li>
+          <li class="item-work">
             <a href="#" class="link">
               <img src="./images/proekt-boxes.jpg" alt="Проект Boxes" />
               <h2 class="title">Проект Boxes</h2>
               <p class="name">Приложение</p>
-              <p>
+              <!-- <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae
                 voluptates aspernatur rerum aperiam ratione ducimus?
-              </p>
+              </p> -->
             </a>
           </li>
-          <li>
+          <li class="item-work">
             <a href="#" class="link">
               <img
                 src="./images/inspiration-has-no-borders.jpg"
@@ -126,13 +132,13 @@
               />
               <h2 class="title">Inspiration has no Borders</h2>
               <p class="name">Веб-сайт</p>
-              <p>
+              <!-- <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae
                 voluptates aspernatur rerum aperiam ratione ducimus?
-              </p>
+              </p> -->
             </a>
           </li>
-          <li>
+          <li class="item-work">
             <a href="#" class="link">
               <img
                 src="./images/izdanie-limited-edition.jpg"
@@ -140,104 +146,106 @@
               />
               <h2 class="title">Издание Limited Edition</h2>
               <p class="name">Дизайн</p>
-              <p>
+              <!-- <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae
                 voluptates aspernatur rerum aperiam ratione ducimus?
-              </p>
+              </p> -->
             </a>
           </li>
-          <li>
+          <li class="item-work">
             <a href="#" class="link">
               <img src="./images/proekt-lab.jpg" alt="Проект LAB" />
               <h2 class="title">Проект LAB</h2>
               <p class="name">Маркетинг</p>
-              <p>
+              <!-- <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae
                 voluptates aspernatur rerum aperiam ratione ducimus?
-              </p>
+              </p> -->
             </a>
           </li>
-          <li>
+          <li class="item-work">
             <a href="#" class="link">
               <img src="./images/growing-business.jpg" alt="Growing Business" />
               <h2 class="title">Growing Business</h2>
               <p class="name">Приложение</p>
-              <p>
+              <!-- <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae
                 voluptates aspernatur rerum aperiam ratione ducimus?
-              </p>
+              </p> -->
             </a>
           </li>
         </ul>
       </section>
     </main>
     <footer>
-      <!--Contacts-->
-      <div>
-        <a href="./index.html" class="footer-logo link"
-          ><span class="logo-accent">Web</span> Studio</a
-        >
-        <addres>
+      <div class="flex-container">
+        <!--Contacts-->
+        <div class="addres-container">
+          <a href="./index.html" class="footer-logo link"
+            ><span class="logo-accent">Web</span> Studio</a
+          >
+          <addres>
+            <ul class="addres list">
+              <li class="item-addres">
+                <a
+                  href="https://goo.gl/maps/sVTpTt4ChwsojPR68"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="link addres"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="item-addres">
+                <a href="mailto:info@example.com" class="link contacts"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="item-addres">
+                <a href="tel:+380991111111" class="link contacts"
+                  >+38 099 111 11 11</a
+                >
+              </li>
+            </ul>
+          </addres>
+        </div>
+        <!--Social links-->
+        <div class="social-container">
+          <h3 class="footer-title">Присоединяйтесь</h3>
           <ul class="list">
             <li>
               <a
-                href="https://goo.gl/maps/sVTpTt4ChwsojPR68"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="link addres"
-                >г. Киев, пр-т Леси Украинки, 26</a
-              >
+                aria-label="Instagram"
+              ></a>
             </li>
             <li>
-              <a href="mailto:info@example.com" class="link contacts"
-                >info@example.com</a
-              >
+              <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Twitter"
+              ></a>
             </li>
             <li>
-              <a href="tel:+380991111111" class="link contacts"
-                >+38 099 111 11 11</a
-              >
+              <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+              ></a>
+            </li>
+            <li>
+              <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Linkedin"
+              ></a>
             </li>
           </ul>
-        </addres>
-      </div>
-      <!--Social links-->
-      <div>
-        <h3 class="footer-title">Присоединяйтесь</h3>
-        <ul class="list">
-          <li>
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Instagram"
-            ></a>
-          </li>
-          <li>
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Twitter"
-            ></a>
-          </li>
-          <li>
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Facebook"
-            ></a>
-          </li>
-          <li>
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Linkedin"
-            ></a>
-          </li>
-        </ul>
+        </div>
       </div>
     </footer>
   </body>

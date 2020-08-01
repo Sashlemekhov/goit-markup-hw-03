@@ -202,7 +202,7 @@ footer {
 }
 
 /* advantages (home page) */
-.advantages {
+.section-advantages {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -248,15 +248,18 @@ footer {
 }
 
 /* services (home page) */
-.services {
+.section-services {
+  padding-bottom: 94px;
+}
+
+.services-list {
   display: flex;
   padding-left: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-bottom: 94px;
 }
 
-.services .title {
+.services-list .title {
   margin-top: 27px;
   margin-bottom: 27px;
 
@@ -272,7 +275,7 @@ footer {
 }
 
 /* team (home page) */
-.team {
+.section-team {
   padding-top: 94px;
   padding-bottom: 94px;
 
@@ -298,7 +301,7 @@ footer {
   margin-right: 30px;
 }
 
-.team .title {
+.section-team .title {
   margin-top: 30px;
   margin-bottom: 10px;
 
@@ -309,7 +312,7 @@ footer {
   text-align: center;
 }
 
-.team .text {
+.section-team .text {
   margin-top: 0px;
   margin-bottom: 16px;
 
@@ -411,21 +414,15 @@ footer {
 }
 
 /* portfolio navigation (portfolio page) */
-.portfolio-container {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
+.section-filter {
   padding-top: 94px;
-  padding-bottom: 94px;
+  padding-bottom: 50px;
 }
 
 .portfolio-filter {
   display: flex;
   margin-top: 0px;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
   padding-left: 0px;
   justify-content: center;
 }
@@ -467,6 +464,10 @@ footer {
 }
 
 /* list of works (portfolio page) */
+.section-works {
+  padding-bottom: 94px;
+}
+
 .work-list {
   display: flex;
   flex-wrap: wrap;
@@ -502,7 +503,7 @@ footer {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
 }
-.works .title {
+.section-works .title {
   margin-top: 0px;
   margin-bottom: 4px;
   margin-left: 24px;
@@ -516,7 +517,7 @@ footer {
   letter-spacing: 0.06em;
 }
 
-.works .name {
+.section-works .name {
   margin-top: 0px;
   margin-bottom: 20px;
   margin-left: 24px;
